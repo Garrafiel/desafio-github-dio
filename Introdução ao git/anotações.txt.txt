@@ -1,2 +1,30 @@
 Baixar git:
 https://git-scm.com/downloads
+
+# Salvar alterações
+git add
+git add . (adiciona todas as alterações de uma só vez na branch)
+
+# Criando uma nova commit
+git commit -m "descrição sucinta da modificação"
+
+# Criar nova branch
+git branch name
+
+# Alternar branch
+git checkout (nome da branch desejada)
+
+# Voltar a versões anteriores
+git reset --hard (id da versão desejada)
+
+# Mandar atualizações do git para o github
+comando= git remote add origin [link do repoitório]
+
+# Trazer branchs atualizadas para a versão principal
+git checkout master
+git pull (este comando atualiza para a branch para a versão mais recente)
+git merge staging
+git push
+
+Obs.: Master é geralmente o nome dado a branch principal e staging à branch que esteja sendo atualizada por assim dizer.
+
